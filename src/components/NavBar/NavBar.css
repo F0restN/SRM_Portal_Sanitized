@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.navbar-title {
+  font-size: 0.9em;
+  display: flex;
+  color: #ffff;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  /*border-style: none;*/
+  /*border: dashed black;*/
+  /* border-bottom: black; */
+}
+
+.navbar-title a {
+  color: #f1f1f1;
+  border: none;
+  font-family: 'Koulen', cursive;
+}
+
+.menu-bars {
+  /* margin-top: 20%; */
+  font-size: 1em;
+  /* border: solid blue; */
+}
+
+.nav-text {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.nav-text#active a {
+  background-color: #baddfa85;
+  /* opacity: 0.5; */
+  border-right: solid #1876d1 2px;
+  color: black;
+}
+
+.nav-text a {
+  /* margin-left: 3px; */
+  font-size: 0.5em;
+  /* color: #f1f1f1; */
+  color: rgba(24, 22, 22, 0.59);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 16px;
+  list-style: none;
+  text-decoration: none;
+  /* border-radius: 4px; */
+  border-style: none;
+}
+
+.nav-text a:hover {
+  background-color: #baddfa85;
+  border: #baddfa85;
+  color: black;
+}
+
+span {
+  margin-left: 20px;
+}
